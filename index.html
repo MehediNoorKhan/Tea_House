@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,72 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
+    <script src="https://kit.fontawesome.com/61d8c7e4c7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope-regular {
+            font-family: "Manrope", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
 </head>
-<body>
 
-    
-    
+<body class="manrope-regular">
+    <header class="max-w-screen-xl mx-auto mt-8 p-2">
+        <!-- div container -->
+        <div class="flex">
+            <!-- text-div -->
+            <div>
+                <h1 class="font-extrabold text-xl md:text-7xl text-[#1C1C1C] mb-7">It's good <br>
+                    tea time at The <br>Tea House</h1>
+                <p class="text-[#777777] mb-7">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                    Taste Buds.</p>
+                <button
+                    class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-3 py-2 md:px-5 md:py-3 rounded-lg text-white text-[10px] md:text-sm">Explore
+                    More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <!-- img div -->
+            <div class="relative">
+                <!-- img -->
+                <div>
+                    <img class="w-full" src="images/banner.png" alt="img of banner">
+                </div>
+                <!-- card div -->
+                <div class="absolute flex items-center gap-2 left-4 top-28 lg:left-28 lg:top-96 lg:mt-4 md:left-12 md:top-60 bg-white shadow-lg rounded-lg px-1 py-1 lg:px-5 lg:py-4 md:px-2 md:py-1">
+                    <!-- icon -->
+                    <div>
+                        <i class="fa-solid fa-star text-amber-500 text-sm"></i>
+                    </div>
+                    <!-- writing -->
+                    <div>
+                        <h3 class="font-bold text-[6px] md:text-[8px] lg:text-sm">5.00</h3>
+                        <p class=" text-[6px] md:text-[8px] lg:text-sm text-gray-400">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <main class="max-w-screen-xl">
+
+    </main>
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
